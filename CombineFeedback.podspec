@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   
   s.swift_version = '5.1'
   s.source = { :git => 'https://github.com/sergdort/CombineFeedback.git', :tag => s.version.to_s }
-  s.source_files = 'Sources/SwifterSwiftUI/**/*'
+  s.source_files = 'Sources/**/*'
   
   s.frameworks = 'SwiftUI', 'Combine'
 end
